@@ -1,0 +1,51 @@
+git --version
+
+
+git config --global user.name "w3schools-test"
+git config --global user.email "test@w3schools.com"
+
+cd desktop
+mkdir myproject
+cd myproject
+
+
+git init 
+                  output ----->Initialized empty Git repository in C:/Users/madhu/myProject/.git
+
+ls
+
+git status
+
+git add index.html
+
+
+git status
+		output      On branch master
+
+					No commits yet
+
+					Changes to be committed:
+					  (use "git rm --cached ..." to unstage)
+						new file: index.html 
+
+
+
+git add --all
+
+git commit -m " message"
+
+
+git commit -a -m "staged message"
+
+
+git commit -help
+
+
+
+git branch hello-world-images
+
+git checkout hello-world-images
+
+
+git branch -a
+
